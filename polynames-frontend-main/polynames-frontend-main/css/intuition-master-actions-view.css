@@ -1,0 +1,17 @@
+.intuition-master-actions-view {
+    display: flex;
+}
+
+.intuition-master-actions-view #waiting-message {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--game-status-secondary-background);
+    font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+    .intuition-master-actions-view #waiting-message {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}
